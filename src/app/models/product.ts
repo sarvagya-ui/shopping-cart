@@ -5,7 +5,7 @@ export class Product {
     price:number;
     imageUrl:string;
 
-    constructor(id,name,description='',price,imageUrl=''){
+    constructor(id,name,description='',price,imageUrl='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzWkXBPL8W8Xt8kghIBsNsxBiXNIvpPY8eEg&usqp=CAU'){
 
         this.id=id;
         this.name=name;
